@@ -1,1 +1,1 @@
-# web-studio-second
+# goit-markup-hw-01
