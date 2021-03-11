@@ -59,14 +59,6 @@ p {
   border-bottom: 1px solid rgb(236, 236, 236);
 }
 
-.logo-blue {
-  color: var(--accent-color);
-}
-
-.logo-black {
-  color: var(--black100);
-}
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -76,10 +68,18 @@ p {
   padding-bottom: 25px;
 }
 
+.logo__web {
+  color: var(--accent-color);
+}
+
+.logo__studio {
+  color: var(--black100);
+}
+
 .nav-list,
 .header-list,
 .contact-list,
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,7 +93,7 @@ p {
   margin-left: 90px;
 }
 
-.nav-item {
+.header-list__item {
   display: flex;
   font-weight: 500;
   font-size: 14px;
@@ -119,7 +119,7 @@ p {
   background-color: var(--accent-color);
 }
 
-.contact-link {
+.contact-list__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -132,31 +132,31 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-list li:last-child {
+.contact-list__item:nth-child(2) {
   margin-left: 50px;
 }
 
-.button-message {
+.contact-list__message {
   fill: #757575;
   margin-right: 10px;
 }
 
-.button-phone {
+.contact-list__phone {
   fill: #757575;
   margin-right: 10px;
 }
 
-.contact-link:hover,
-.contact-link:focus,
-.nav-item:hover,
-.nav-item:focus {
+.contact-list__link:hover,
+.contact-list__link:focus,
+.header-list__item:hover,
+.header-list__item:focus {
   color: var(--accent-color);
 }
 
-.contact-link:hover .button-message,
-.contact-link:focus .button-message,
-.contact-link:hover .button-phone,
-.contact-link:focus .button-phone {
+.contact-list__link:hover .contact-list__message,
+.contact-list__link:focus .contact-list__message,
+.contact-list__link:hover .contact-list__phone,
+.contact-list__link:focus .contact-list__phone {
   fill: var(--accent-color);
   cursor: pointer;
 }
