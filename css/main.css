@@ -36,4 +36,8 @@
 .logo__studio {
   color: var(--black100);
 }
+
+.logo__studio--white {
+  color: var(--tertiary-color-text);
+}
 /*# sourceMappingURL=main.css.map */
