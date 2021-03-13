@@ -16,7 +16,7 @@
 }
 
 .advantages__title {
-  @include visually-hidden;
+  @extend %visually-hidden;
 }
 
 .description-list__icon {
