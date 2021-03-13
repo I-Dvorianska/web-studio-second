@@ -1,21 +1,34 @@
 :root {
   --accent-color: #2196f3;
   --second-accent-color: rgba(33, 150, 243, 0.9);
+
   --tertiary-color-text: #ffffff;
   --primary-color-text: #212121;
   --secondary-color-text: #757575;
+
   --gris-op60: #ffffff60;
   --black100: #000000;
+
+  --background-color-op80: rgba(47, 48, 58, 0.8);
   --background-hero: #2f303a;
-  --background-btn-portfolio: #f5f4fa;
   --background-color-hero: rgba(47, 48, 58, 0.4);
+
   --inactive-color-button: #afb1b8;
   --background-color-button: rgba(255, 255, 255, 0.1);
+  --background-btn-portfolio: #f5f4fa;
+
   --border-color: #eeeeee;
-  --background-color-op80: rgba(47, 48, 58, 0.8);
-  --modal-color-op20: #00000020;
   --close-border-op10: #00000010;
+  --header-border: rgb(236, 236, 236);
+
+  --modal-color-op20: #00000020;
+
   --footer-email-color: rgba(255, 255, 255, 0.6);
   --input-modal-border: rgba(33, 33, 33, 0.2);
   --placeholder-modal: rgba(117, 117, 117, 0.5);
+
+  --font-family-logo: 'Raleway', sans-serif;
+  --font-size-logo: 26px;
+  --line-height-logo: 1.19;
+  --primary-font-family: 'Roboto', sans-serif;
 }
