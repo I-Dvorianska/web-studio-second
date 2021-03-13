@@ -222,4 +222,51 @@ p {
   fill: var(--accent-color);
   cursor: pointer;
 }
+
+.hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
+}
+
+.hero-img {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--background-color-hero)), to(var(--background-color-hero))), url(../images/backgroung.jpg);
+  background-image: linear-gradient(to right, var(--background-color-hero), var(--background-color-hero)), url(../images/backgroung.jpg);
+}
+
+.hero__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--tertiary-color-text);
+}
+
+.hero__btn {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  border: none;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--tertiary-color-text);
+  margin-top: 30px;
+  padding: 10px 32px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero__btn:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=main.css.map */
