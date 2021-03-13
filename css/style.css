@@ -285,7 +285,7 @@ p {
   padding: 0px;
 }
 
-.our-work.container,
+.work-box,
 .work-list {
   display: flex;
   justify-content: center;
