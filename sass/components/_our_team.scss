@@ -1,0 +1,53 @@
+.our-team {
+  margin-bottom: 0px;
+  padding-bottom: 94px;
+  background-color: var(--background-btn-portfolio);
+}
+
+.our-team__title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+
+.team-list {
+  @include centered-flex (stretch, center)
+}
+
+.team-list__item {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.team-list__item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.team-list__caption {
+  text-align: center;
+  background-color: var(--tertiary-color-text);
+}
+
+.team-list__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--primary-color-text);
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.team-list__work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--secondary-color-text);
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
