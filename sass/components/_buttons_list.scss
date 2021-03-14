@@ -31,9 +31,9 @@
   border-radius: 4px;
   justify-content: center;
 
-  @include transition(background-color);
-  @include transition(color);
   @include transition(box-shadow);
+  @include transition(color);
+  @include transition(background-color);
 
     &:hover,
     &:focus {

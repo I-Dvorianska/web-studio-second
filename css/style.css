@@ -872,10 +872,7 @@ p {
   height: 100%;
 }
 
-.card:hover .example-thumb::before,
-.card:hover .overlay {
-  transform: translateY(0);
-}
+
 
 .card:hover,
 .card:focus {
@@ -887,6 +884,11 @@ p {
 .card__thumb {
   position: relative;
   overflow: hidden;
+}
+
+.card:hover .card__thumb::before,
+.card:hover .overlay {
+  transform: translateY(0);
 }
 
 .card__thumb::before {
