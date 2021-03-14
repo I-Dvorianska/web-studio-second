@@ -18,6 +18,10 @@
   margin-top: 4px;
 }
 
+.form__item:focus {
+  outline: none;
+}
+
 .form__input {
   width: 100%;
   padding: 11px 33px;
@@ -43,8 +47,8 @@
 
   @include transition(fill);
 
-    .form__item:hover &,
-    .form__item:focus & {
+    .form__input:hover &,
+    .form__input:focus & {
         fill: var(--accent-color);
     }
 }
@@ -95,7 +99,7 @@
   border-radius: 2px;
   background-color: var(--tertiary-color-text);
   cursor: pointer;
-    .confirmation__checkbox:focus &,
+    &:focus,
     .confirmation__checkbox:checked & {
         background-color: var(--accent-color);
         border-color: var(--accent-color);

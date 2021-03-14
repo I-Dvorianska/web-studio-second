@@ -866,6 +866,10 @@ p {
   margin-top: 4px;
 }
 
+.form__item:focus {
+  outline: none;
+}
+
 .form__input {
   width: 100%;
   padding: 11px 33px;
@@ -899,8 +903,8 @@ p {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form__item:hover .form__icon,
-.form__item:focus .form__icon {
+.form__input:hover .form__icon,
+.form__input:focus .form__icon {
   fill: var(--accent-color);
 }
 
@@ -960,7 +964,7 @@ p {
   cursor: pointer;
 }
 
-.confirmation__checkbox:focus .confirmation-icon,
+.confirmation-icon:focus,
 .confirmation__checkbox:checked .confirmation-icon {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
