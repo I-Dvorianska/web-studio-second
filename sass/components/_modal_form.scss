@@ -43,13 +43,15 @@
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
-  fill: var(--primary-color-text);
+  
 
   @include transition(fill);
 
-    .form__input:hover &,
-    .form__input:focus & {
-        fill: var(--accent-color);
+    .form__input:focus + & {
+       fill: var(--accent-color);
+    }
+    .form__input:hover + & {
+       fill: var(--accent-color);
     }
 }
 
@@ -110,6 +112,7 @@
   position: absolute;
   top: 10%;
   left: 0;
+  color: red;
 }
 
 .confirmation__text-link {
