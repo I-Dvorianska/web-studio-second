@@ -101,8 +101,8 @@
   border-radius: 2px;
   background-color: var(--tertiary-color-text);
   cursor: pointer;
-    &:focus,
-    .confirmation__checkbox:checked & {
+  
+    .confirmation__checkbox:checked + & {
         background-color: var(--accent-color);
         border-color: var(--accent-color);
     }
@@ -112,7 +112,6 @@
   position: absolute;
   top: 10%;
   left: 0;
-  color: red;
 }
 
 .confirmation__text-link {

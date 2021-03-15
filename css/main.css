@@ -965,8 +965,7 @@ p {
   cursor: pointer;
 }
 
-.confirmation-icon:focus,
-.confirmation__checkbox:checked .confirmation-icon {
+.confirmation__checkbox:checked + .confirmation-icon {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -975,7 +974,6 @@ p {
   position: absolute;
   top: 10%;
   left: 0;
-  color: red;
 }
 
 .confirmation__text-link {
