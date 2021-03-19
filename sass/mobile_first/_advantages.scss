@@ -1,0 +1,38 @@
+.advantages__title {
+  @extend %visually-hidden;
+}
+
+.advantages {
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.description-list__icon {
+  @include centered-flex(center, center);
+  width: 450px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: var(--background-btn-portfolio);
+}
+
+.description-list__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+
+  color: var(--primary-color-text);
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.description-list__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-color-text);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
