@@ -23,10 +23,18 @@
     <header class="header">
       <div class="container header__container">
         <nav class="nav-list">
+          <div class="mobile-header">
           <a href="./index.html" class="logo"
             ><span class="logo__web">Web</span
-            ><span class="logo__studio">Studio</span></a
-          >
+            ><span class="logo__studio">Studio</span></a>
+              <div>
+                <svg class="mobile-icons" width=40px height=40px>
+                  <use href="./images/symbol-defs.svg#mobile-open"></use>
+                  <use href="./images/symbol-defs.svg#mobile-close"></use>
+                </svg>
+              </div>
+            </div>
+
           <ul class="header-list">
             <li class="header-list__item"><a class="header-list__icon current" href="./index.html">Студия</a></li>
             <li class="header-list__item"><a class="header-list__icon" href="./portfolio.html">Портфолио</a></li>
@@ -52,6 +60,26 @@
               +38 096 111 11 11
             </a>
           </li>
+        </ul>
+      </div>
+
+      <div class="mobile-menu">
+        <ul class="mobile-list">
+          <li class="mobile-list__item">Студия</li>
+          <li class="mobile-list__item">Портфолио</li>
+          <li class="mobile-list__item">Контакты</li>
+        </ul>
+
+        <ul class="mobile-contacts">
+          <li class="mobile-contacts__item">+38 096 111 11 11</li>
+          <li class="mobile-contacts__item">info@devstudio.com</li>
+        </ul>
+
+        <ul class="mobile-social">
+          <li class="mobile-social__item">Instagram</li>
+          <li class="mobile-social__item">Twitter</li>
+          <li class="mobile-social__item">Facebook</li>
+          <li class="mobile-social__item">LinkedIn</li>
         </ul>
       </div>
     </header>

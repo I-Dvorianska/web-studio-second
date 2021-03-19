@@ -1,0 +1,18 @@
+.mobile-header {
+   display: flex;
+   align-items: center;
+    min-height: 60px;
+}
+
+.header-list {
+    display: none;
+}
+
+.contact-list {
+    display: none;
+}
+
+.mobile-icons {
+    fill: var(--primary-color-text);
+}
+
