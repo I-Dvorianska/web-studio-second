@@ -1,0 +1,39 @@
+.our-team__title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.18;
+
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding-top: 94px;
+
+  color: var(--primary-color-text);
+}
+
+.team-list__caption {
+  text-align: center;
+  background-color: var(--tertiary-color-text);
+}
+
+.team-list__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+
+  color: var(--primary-color-text);
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.team-list__work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--secondary-color-text);
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
