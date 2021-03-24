@@ -107,7 +107,12 @@ p {
 }
 
 .logo-footer {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .mobile-header {
@@ -144,6 +149,10 @@ p {
   fill: var(--primary-color-text);
 }
 
+.mobile__icons:hover {
+  color: var(--accent-color);
+}
+
 .mobile__icons .mobile__cross {
   display: none;
 }
@@ -154,6 +163,16 @@ p {
 
 .mobile.is-open .mobile__cross .mobile__open {
   display: none;
+}
+
+.mobile-modal {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--tertiary-color-text);
+  overflow-y: scroll;
 }
 
 .hero {

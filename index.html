@@ -31,8 +31,8 @@
                 <svg class="mobile__icons" 
                 width=40px height=40px
                 aria-label="переключатель мобильного меню">
-                  <use class="mobile__open" href="./images/symbol-defs.svg#mobile-open"></use>
-                  <use class="mobile__cross" href="./images/symbol-defs.svg#mobile-close"></use>
+                  <use class="mobile__open" js-open-menu href="./images/symbol-defs.svg#mobile-open"></use>
+                  <use class="mobile__cross" js-close-menu href="./images/symbol-defs.svg#mobile-close"></use>
                 </svg>
               </button>
             </div>
@@ -65,25 +65,6 @@
         </ul>
       </div>
 
-      <div class="mobile-menu">
-        <ul class="mobile-list">
-          <li class="mobile-list__item">Студия</li>
-          <li class="mobile-list__item">Портфолио</li>
-          <li class="mobile-list__item">Контакты</li>
-        </ul>
-
-        <ul class="mobile-contacts">
-          <li class="mobile-contacts__item">+38 096 111 11 11</li>
-          <li class="mobile-contacts__item">info@devstudio.com</li>
-        </ul>
-
-        <ul class="mobile-social">
-          <li class="mobile-social__item">Instagram</li>
-          <li class="mobile-social__item">Twitter</li>
-          <li class="mobile-social__item">Facebook</li>
-          <li class="mobile-social__item">LinkedIn</li>
-        </ul>
-      </div>
     </header>
 
     <main>
@@ -575,7 +556,31 @@
         </div>
       </div>
     </div>
+
+      <div class="mobile-modal">
+        <div class="mobile-menu" js-menu-container>
+          <ul class="mobile-list">
+            <li class="mobile-list__item">Студия</li>
+            <li class="mobile-list__item">Портфолио</li>
+            <li class="mobile-list__item">Контакты</li>
+          </ul>
+        
+          <ul class="mobile-contacts">
+            <li class="mobile-contacts__item">+38 096 111 11 11</li>
+            <li class="mobile-contacts__item">info@devstudio.com</li>
+          </ul>
+        
+          <ul class="mobile-social">
+            <li class="mobile-social__item">Instagram</li>
+            <li class="mobile-social__item">Twitter</li>
+            <li class="mobile-social__item">Facebook</li>
+            <li class="mobile-social__item">LinkedIn</li>
+          </ul>
+        
+      </div>
+    </div>
     
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>

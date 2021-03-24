@@ -23,6 +23,10 @@
   padding-right: 5px;
 
   fill: var(--primary-color-text);
+
+  &:hover {
+    color: var(--accent-color);
+  }
 }
 
 .mobile__icons .mobile__cross {
