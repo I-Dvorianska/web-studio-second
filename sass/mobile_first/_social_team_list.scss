@@ -1,0 +1,19 @@
+.social-list {
+  @include centered-flex(center, center);
+  padding: 16px 0px 24px 0px;
+  background-color: var(--tertiary-color-text);
+}
+
+.social-list__item {
+  box-shadow: none;
+}
+
+.social-list__link {
+  @include centered-flex(center, center);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--inactive-color-button);
+  @include transition(fill);
+  @include transition(background-color);
+}
