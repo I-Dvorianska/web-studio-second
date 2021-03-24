@@ -3,7 +3,6 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-logomob);
   line-height: var(--line-height-logomob);
-
 }
 
 .logo__web {
@@ -16,4 +15,8 @@
 
 .logo__studio--white {
   color: var(--tertiary-color-text);
+}
+
+.logo-footer {
+  text-align: center;
 }
