@@ -1,37 +1,37 @@
 .mobile-header {
-   @include centered-flex (center, space-between);
-   min-height: 60px;
+  @include centered-flex(center, space-between);
+  min-height: 60px;
 }
 
 .header-list {
-    display: none;
+  display: none;
 }
 
 .contact-list {
-    display: none;
+  display: none;
 }
 
 .mobile {
-display: inline-block;
-padding: 0px;
-border: none;
-background-color: transparent;
+  display: inline-block;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
 }
 
 .mobile__icons {
-   fill: var(--primary-color-text);
+  padding-bottom: 2px;
+  padding-right: 5px;
+
+  fill: var(--primary-color-text);
 }
 
 .mobile__icons .mobile__cross {
-    display: none;
+  display: none;
 }
 .mobile.is-open .mobile__cross {
-    display: block;
+  display: block;
 
-    & .mobile__open {
+  & .mobile__open {
     display: none;
-    }
+  }
 }
-
-
-
