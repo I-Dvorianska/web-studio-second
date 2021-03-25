@@ -240,6 +240,6 @@ p {
 }
 
 .card__thumb .card__image {
-  width: 100%;
+  max-width: 100%;
 }
 /*# sourceMappingURL=portfolio.css.map */
