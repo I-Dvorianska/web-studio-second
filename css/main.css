@@ -14,7 +14,7 @@
   --background-btn-portfolio: #f5f4fa;
   --border-color: #eeeeee;
   --close-border-op10: #00000010;
-  --header-border: rgb(236, 236, 236);
+  --header-border: rgba(236, 236, 236, 1);
   --input-border: rgba(255, 255, 255, 0.3);
   --modal-color-op20: #00000020;
   --footer-email-color: rgba(255, 255, 255, 0.6);
@@ -55,6 +55,7 @@ p {
 }
 
 .container {
+  position: relative;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -126,6 +127,14 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   min-height: 60px;
+}
+
+.mobile-header::after {
+  content: '';
+  position: absolute;
+  border: 1px solid var(--header-border);
+  min-width: 100%;
+  top: 60px;
 }
 
 .header-list {

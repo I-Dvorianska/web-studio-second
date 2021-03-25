@@ -3,6 +3,14 @@
   min-height: 60px;
 }
 
+.mobile-header::after {
+  content: '';
+  position: absolute;
+  border: 1px solid var(--header-border);
+  min-width: 100%;
+  top: 60px;
+}
+
 .header-list {
   display: none;
 }
