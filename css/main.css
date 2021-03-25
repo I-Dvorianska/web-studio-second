@@ -175,6 +175,71 @@ p {
   overflow-y: scroll;
 }
 
+.mobile-list {
+  margin-top: 48px;
+  margin-bottom: 302px;
+}
+
+.mobile-list__item {
+  padding-left: 25px;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  color: var(--primary-color-text);
+}
+
+.mobile-list__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.mobile-contacts {
+  padding-left: 25px;
+}
+
+.mobile-contacts__mobile {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  color: var(--accent-color);
+}
+
+.mobile-contacts__mail {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16;
+  color: var(--secondary-color-text);
+}
+
+.mobile-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 25px;
+}
+
+.mobile-social__item {
+  color: var(--accent-color);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2.75;
+}
+
+.mobile-social__item:not(:last-child)::after {
+  content: '';
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 22px;
+  height: 1px;
+  margin: 0px 10px;
+}
+
 .hero {
   text-align: center;
 }
