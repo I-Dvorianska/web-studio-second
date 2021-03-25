@@ -139,7 +139,7 @@ p {
   color: var(--accent-color);
 }
 
-.mobile__icons .mobile__cross {
+.mobile .mobile__cross {
   display: none;
 }
 
@@ -147,7 +147,7 @@ p {
   display: block;
 }
 
-.mobile.is-open .mobile__cross .mobile__open {
+.mobile.is-open .mobile-open {
   display: none;
 }
 /*# sourceMappingURL=portfolio.css.map */

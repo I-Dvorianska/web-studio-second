@@ -27,12 +27,12 @@
           <a href="./index.html" class="logo"
             ><span class="logo__web">Web</span
             ><span class="logo__studio">Studio</span></a>
-              <button type="button" class="mobile">
+              <button type="button" class="js-menu-container mobile">
                 <svg class="mobile__icons" 
                 width=40px height=40px
                 aria-label="переключатель мобильного меню">
-                  <use class="mobile__open" js-open-menu href="./images/symbol-defs.svg#mobile-open"></use>
-                  <use class="mobile__cross" js-close-menu href="./images/symbol-defs.svg#mobile-close"></use>
+                  <use class="mobile__open js-open-menu" href="./images/symbol-defs.svg#mobile-open"></use>
+                  <use class="mobile__cross js-close-menu" href="./images/symbol-defs.svg#mobile-close"></use>
                 </svg>
               </button>
             </div>
@@ -557,8 +557,8 @@
       </div>
     </div>
 
-      <div class="mobile-modal container">
-        <div class="mobile-menu" js-menu-container>
+      <div class="container js-menu-container mobile-modal">
+        <div class="mobile-menu ">
           <ul class="mobile-list">
             <li class="mobile-list__item current">Студия</li>
             <li class="mobile-list__item">Портфолио</li>

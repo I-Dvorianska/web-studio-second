@@ -29,13 +29,13 @@
   }
 }
 
-.mobile__icons .mobile__cross {
+.mobile .mobile__cross {
   display: none;
 }
 .mobile.is-open .mobile__cross {
   display: block;
+}
 
-  & .mobile__open {
-    display: none;
-  }
+.mobile.is-open .mobile-open {
+  display: none;
 }

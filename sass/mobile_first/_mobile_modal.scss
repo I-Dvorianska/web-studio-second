@@ -6,6 +6,8 @@
   height: 100vh;
   background-color: var(--tertiary-color-text);
   overflow-y: scroll;
+
+  display: none;
 }
 
 .mobile-list {
