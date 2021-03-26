@@ -1,18 +1,30 @@
 .hero {
   text-align: center;
+}
+
+.hero-img {
   width: 480px;
   height: 400px;
-  background-image: url('../../images/');
+  background-image: linear-gradient(
+      to right,
+      var(--background-color-hero),
+      var(--background-color-hero)
+    ),
+    url(../images/hero2x.jpg);
+  background-size: cover;
 }
 
 .hero__title {
+  margin: 0px;
+  padding-top: 118px;
+
   font-weight: 900;
   font-size: 26px;
   line-height: 1.61;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 
-  color: black;
+  color: var(--tertiary-color-text);
 }
 
 .hero__btn {
