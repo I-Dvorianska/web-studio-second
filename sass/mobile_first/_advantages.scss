@@ -7,17 +7,37 @@
   margin-bottom: 60px;
 }
 
-.description-list__item:not(:last-child) {
-  margin-bottom: 30px;
+.description-list {
+  @media screen and(min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
+@media screen and(max-width: 767px) {
+  .description-list__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+.description-list__item {
+  @media screen and(min-width: 768px) {
+    margin: 15px;
+    flex-basis: calc((100% - #{60px}) / 2);
+  }
 }
 
 .description-list__icon {
-  @include centered-flex(center, center);
-  max-width: 450px;
-  height: 120px;
   margin-bottom: 30px;
-
+  height: 120px;
+  @include centered-flex(center, center);
   background-color: var(--background-btn-portfolio);
+
+  @media screen and(max-width: 767px) {
+    max-width: 450px;
+  }
+  @media screen and(min-width: 768px) {
+  }
 }
 
 .description-list__title {
