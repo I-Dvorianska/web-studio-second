@@ -75,6 +75,12 @@ p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
 .portfolio__title {
   position: absolute;
   width: 1px;
@@ -92,8 +98,20 @@ p {
 .logo {
   font-family: var(--font-family-logo);
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-logomob);
-  line-height: var(--line-height-logomob);
+}
+
+@media screen and (max-width: 1199px) {
+  .logo {
+    font-size: var(--font-size-logomob);
+    line-height: var(--line-height-logomob);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: var(--font-size-logo);
+    line-height: var(--line-height-logo);
+  }
 }
 
 .logo--padding {

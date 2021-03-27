@@ -1,8 +1,14 @@
 .logo {
   font-family: var(--font-family-logo);
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-logomob);
-  line-height: var(--line-height-logomob);
+  @media screen and(max-width: 1199px) {
+    font-size: var(--font-size-logomob);
+    line-height: var(--line-height-logomob);
+  }
+  @media screen and(min-width: 1200px) {
+    font-size: var(--font-size-logo);
+    line-height: var(--line-height-logo);
+  }
 }
 
 .logo--padding {
