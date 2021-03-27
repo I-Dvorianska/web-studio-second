@@ -96,6 +96,16 @@ p {
   line-height: var(--line-height-logomob);
 }
 
+.logo--padding {
+  padding: 16px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo--padding {
+    padding: 26px 0px;
+  }
+}
+
 .logo__web {
   color: var(--accent-color);
 }
@@ -279,13 +289,13 @@ p {
   color: var(--accent-color);
 }
 
-.contact-list__item:last-child {
-  margin-top: 10px;
-  padding-bottom: 21px;
+.contact-list__link--mail {
+  padding-top: 21px;
 }
 
-.contact-list__item:first-child {
-  padding-top: 21px;
+.contact-list__link--tel {
+  padding-bottom: 21px;
+  margin-top: 10px;
 }
 
 .contact-list__message,
@@ -520,10 +530,21 @@ p {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  text-align: center;
   color: var(--primary-color-text);
   margin-top: 0px;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .description-list__title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .description-list__title {
+    text-align: start;
+  }
 }
 
 .description-list__text {
@@ -616,6 +637,7 @@ p {
 
 .team-list__caption {
   text-align: center;
+  padding-top: 30px;
   background-color: var(--tertiary-color-text);
 }
 
@@ -625,7 +647,6 @@ p {
   line-height: 1.18;
   text-align: center;
   color: var(--primary-color-text);
-  padding-top: 30px;
   padding-bottom: 0px;
   margin: 0px;
 }
@@ -650,7 +671,8 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 16px 0px 24px 0px;
+  padding-bottom: 24px;
+  padding-top: 16px;
   background-color: var(--tertiary-color-text);
 }
 
@@ -854,7 +876,7 @@ p {
   text-align: center;
   color: var(--tertiary-color-text);
   margin-bottom: 20px;
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .footer-list {

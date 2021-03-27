@@ -96,6 +96,16 @@ p {
   line-height: var(--line-height-logomob);
 }
 
+.logo--padding {
+  padding: 16px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo--padding {
+    padding: 26px 0px;
+  }
+}
+
 .logo__web {
   color: var(--accent-color);
 }
@@ -279,13 +289,13 @@ p {
   color: var(--accent-color);
 }
 
-.contact-list__item:last-child {
-  margin-top: 10px;
-  padding-bottom: 21px;
+.contact-list__link--mail {
+  padding-top: 21px;
 }
 
-.contact-list__item:first-child {
-  padding-top: 21px;
+.contact-list__link--tel {
+  padding-bottom: 21px;
+  margin-top: 10px;
 }
 
 .contact-list__message,
@@ -545,7 +555,7 @@ p {
   text-align: center;
   color: var(--tertiary-color-text);
   margin-bottom: 20px;
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .footer-list {

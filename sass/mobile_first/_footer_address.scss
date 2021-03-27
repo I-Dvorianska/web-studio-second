@@ -14,7 +14,8 @@
 
 .footer-box {
   @media screen and(min-width: 768px) {
-    @include centered-flex(baseline, center) flex-wrap: wrap;
+    @include centered-flex(baseline, center);
+    flex-wrap: wrap;
   }
 }
 
@@ -66,7 +67,7 @@
 
   color: var(--tertiary-color-text);
   margin-bottom: 20px;
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .footer-list {
