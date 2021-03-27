@@ -2,6 +2,10 @@
   border: 1px solid var(--border-color);
 }
 
+.card-set__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
 .card {
   display: block;
   width: 100%;

@@ -23,24 +23,24 @@
     <header class="header">
       <div class="container header__container">
         <nav class="nav-list">
-          <div class="mobile-header">
           <a href="./index.html" class="logo"
             ><span class="logo__web">Web</span
-            ><span class="logo__studio">Studio</span></a>
-              <button type="button" class="js-menu-container mobile">
-                <svg class="mobile__icons" 
-                width=40px height=40px
-                aria-label="переключатель мобильного меню">
-                  <use class="mobile__open js-open-menu" href="./images/symbol-defs.svg#mobile-open"></use>
-                  <use class="mobile__cross js-close-menu" href="./images/symbol-defs.svg#mobile-close"></use>
-                </svg>
-              </button>
-            </div>
-
+            ><span class="logo__studio">Studio</span></a
+          >
           <ul class="header-list">
-            <li class="header-list__item"><a class="header-list__icon current" href="./index.html">Студия</a></li>
-            <li class="header-list__item"><a class="header-list__icon" href="./portfolio.html">Портфолио</a></li>
-            <li class="header-list__item"><a class="header-list__icon" href="#">Контакты</a></li>
+            <li class="header-list__item">
+              <a class="header-list__icon current" href="./index.html"
+                >Студия</a
+              >
+            </li>
+
+            <li class="header-list__item">
+              <a class="header-list__icon" href="./portfolio.html">Портфолио</a>
+            </li>
+
+            <li class="header-list__item">
+              <a class="header-list__icon" href="#">Контакты</a>
+            </li>
           </ul>
         </nav>
 
@@ -63,8 +63,21 @@
             </a>
           </li>
         </ul>
-      </div>
 
+        <button type="button" class="js-menu-container mobile">
+          <svg
+            class="mobile__icons"
+            width="24px"
+            height="16px"
+            aria-label="переключатель мобильного меню"
+          >
+            <use
+              class="mobile__open js-open-menu"
+              href="./images/symbol-defs.svg#mobile-open"
+            ></use>
+          </svg>
+        </button>
+      </div>
     </header>
 
     <main>
@@ -75,12 +88,12 @@
             для вашего бизнеса
           </h1>
           <button data-modal-open class="hero__btn">Заказать услугу</button>
-        </div>  
+        </div>
       </section>
 
-      <section class="advantages">
+      <!-- <section class="advantages">
         <div class="container">
-          <h2 class=" advantages__title">Наши преимущество</h2>
+          <h2 class="advantages__title">Наши преимущество</h2>
           <ul class="description-list">
             <li class="description-list__item">
               <div class="description-list__icon">
@@ -132,14 +145,14 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="our-work">
+      <!-- <section class="our-work">
         <div class="container work-box">
           <h2 class="work-box__title">Чем мы занимаемся</h2>
           <ul class="work-list">
             <li class="work-list__item">
-              <img 
+              <img
                 src="./images/box1.jpg"
                 alt="Клавиатура"
                 width="370"
@@ -148,7 +161,7 @@
               <p class="work-list__title">Десктопные приложения</p>
             </li>
             <li class="work-list__item">
-              <img 
+              <img
                 src="./images/box2.jpg"
                 alt="Телефон"
                 width="370"
@@ -157,7 +170,7 @@
               <p class="work-list__title">Мобильные приложения</p>
             </li>
             <li class="work-list__item">
-              <img 
+              <img
                 src="./images/box3.jpg"
                 alt="Графическией планшет"
                 width="370"
@@ -167,22 +180,26 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="our-team">
+      <!-- <section class="our-team">
         <div class="container">
           <h2 class="our-team__title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-list__item">
               <div class="team-list__thumb">
-              <img class="team-list__photo"
-                srcset="./images/team/team1.450.jpg 1x,
-                ./images/team/team1.900.jpg 2x"
-                src="./images/team/team_card1.jpg"
-                alt="Фото сотрудника"
-                width="270"
-                height="260"
-              /> </div>
+                <img
+                  class="team-list__photo"
+                  srcset="
+                    ./images/team/team1.450.jpg 1x,
+                    ./images/team/team1.900.jpg 2x
+                  "
+                  src="./images/team/team_card1.jpg"
+                  alt="Фото сотрудника"
+                  width="270"
+                  height="260"
+                />
+              </div>
 
               <div class="team-list__caption">
                 <h3 class="team-list__name">Игорь Демьяненко</h3>
@@ -225,14 +242,18 @@
             </li>
             <li class="team-list__item">
               <div class="team-list__thumb">
-              <img class="team-list__photo"
-                srcset="./images/team/team2.450.jpg 1x,
-                ./images/team/team2.900.jpg 2x"
-                src="./images/team/team_card2.jpg"
-                alt="Фото сотрудника"
-                width="270"
-                height="260"
-              /> </div>
+                <img
+                  class="team-list__photo"
+                  srcset="
+                    ./images/team/team2.450.jpg 1x,
+                    ./images/team/team2.900.jpg 2x
+                  "
+                  src="./images/team/team_card2.jpg"
+                  alt="Фото сотрудника"
+                  width="270"
+                  height="260"
+                />
+              </div>
 
               <div class="team-list__caption">
                 <h3 class="team-list__name">Ольга Репина</h3>
@@ -274,14 +295,18 @@
             </li>
             <li class="team-list__item">
               <div class="team-list__thumb">
-              <img class="team-list__photo"
-              srcset="./images/team/team3.450.jpg 1x,
-              ./images/team/team3.900.jpg 2x"
-                src="./images/team/team_card3.jpg"
-                alt="Фото сотрудника"
-                width="270"
-                height="260"
-              /> </div>
+                <img
+                  class="team-list__photo"
+                  srcset="
+                    ./images/team/team3.450.jpg 1x,
+                    ./images/team/team3.900.jpg 2x
+                  "
+                  src="./images/team/team_card3.jpg"
+                  alt="Фото сотрудника"
+                  width="270"
+                  height="260"
+                />
+              </div>
 
               <div class="team-list__caption">
                 <h3 class="team-list__name">Николай Тарасов</h3>
@@ -323,14 +348,18 @@
             </li>
             <li class="team-list__item">
               <div class="team-list__thumb">
-              <img class="team-list__photo"
-                srcset="./images/team/team4.450.jpg 1x,
-                ./images/team/team4.900.jpg 2x"
-                src="./images/team/team_card4.jpg"
-                alt="Фото сотрудника"
-                width="270"
-                height="260"
-              /> </div>
+                <img
+                  class="team-list__photo"
+                  srcset="
+                    ./images/team/team4.450.jpg 1x,
+                    ./images/team/team4.900.jpg 2x
+                  "
+                  src="./images/team/team_card4.jpg"
+                  alt="Фото сотрудника"
+                  width="270"
+                  height="260"
+                />
+              </div>
 
               <div class="team-list__caption">
                 <h3 class="team-list__name">Михаил Ермаков</h3>
@@ -372,9 +401,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="our-clients">
+      <!-- <section class="our-clients">
         <div class="container">
           <h2 class="our-clients__title">Постоянные клиенты</h2>
 
@@ -428,26 +457,28 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
- 
-    <footer class="footer">
+
+    <!-- <footer class="footer">
       <div class="container footer-box">
         <div>
           <a href="./index.html" class="logo logo-footer">
             <span class="logo__web">Web</span>
             <span class="logo__studio--white">Studio</span>
-            </a>
+          </a>
           <address>
             <p class="footer-box__address">г. Киев, пр-т Леси Украинки, 26</p>
             <ul>
               <li>
                 <a class="footer-box__link" href="mailto:info@example.com"
-                  >info@example.com</a>
+                  >info@example.com</a
+                >
               </li>
               <li>
                 <a class="footer-box__link" href="+380991111111"
-                  >+38 099 111 11 11</a>
+                  >+38 099 111 11 11</a
+                >
               </li>
             </ul>
           </address>
@@ -494,18 +525,24 @@
           <p class="footer-action__title">Подпишитесь на рассылку</p>
           <form class="footer-action__form">
             <div class="footer-field">
-            <input type="email" class="footer-field__input" name="email" id="email" placeholder="E-mail">           
+              <input
+                type="email"
+                class="footer-field__input"
+                name="email"
+                id="email"
+                placeholder="E-mail"
+              />
             </div>
-            <button class="footer-button" type="submit">Подписаться
-              <svg class="footer-button__icon" width=24px height=24px>
-                <use  href="./images/symbol-defs.svg#icon-send"></use>
+            <button class="footer-button" type="submit">
+              Подписаться
+              <svg class="footer-button__icon" width="24px" height="24px">
+                <use href="./images/symbol-defs.svg#icon-send"></use>
               </svg>
             </button>
-            
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">

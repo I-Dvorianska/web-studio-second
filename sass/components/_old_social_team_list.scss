@@ -17,11 +17,11 @@
 //   @include transition(fill);
 //   @include transition(background-color);
 
-  &:hover,
-  &:focus {
-    fill: var(--tertiary-color-text);
-    cursor: pointer;
-    border-radius: 50%;
-    background-color: var(--accent-color);
-  }
-}
+//   &:hover,
+//   &:focus {
+//     fill: var(--tertiary-color-text);
+//     cursor: pointer;
+//     border-radius: 50%;
+//     background-color: var(--accent-color);
+//   }
+// }

@@ -23,12 +23,12 @@
 //   height: 90px;
 //   border: 1px solid var(--inactive-color-button);
 //   border-radius: 5px;
-  @include transition(border);
+  // @include transition(border);
 
-  &:hover,
-  &:focus {
-    border: 1px solid var(--accent-color);
-  }
+  // &:hover,
+  // &:focus {
+  //   border: 1px solid var(--accent-color);
+  // }
 }
 
 .client-list__link {
@@ -38,13 +38,13 @@
   fill: var(--inactive-color-button);
 }
 
-.client-list__icon {
-  fill: var(--inactive-color-button);
+// .client-list__icon {
+//   fill: var(--inactive-color-button);
 
-  @include transition(fill);
+//   @include transition(fill);
 
-  .client-list__link:hover &,
-  .client-list__link:focus & {
-    fill: var(--accent-color);
-  }
-}
+//   .client-list__link:hover &,
+//   .client-list__link:focus & {
+//     fill: var(--accent-color);
+//   }
+// }

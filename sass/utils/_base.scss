@@ -8,6 +8,10 @@ ul {
   padding: 0;
 }
 
+h1 {
+  margin: 0px;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -25,11 +29,8 @@ p {
 }
 
 .container {
-  position: relative;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0px 15px;
+  margin: 0 auto;
 
   @media screen and (min-width: 480px) {
     width: 480px;

@@ -1,5 +1,6 @@
 .our-team {
   background-color: var(--background-btn-portfolio);
+  // min-width: 100%;
 }
 
 .our-team__title {
@@ -8,7 +9,7 @@
   font-weight: 700;
   line-height: 1.18;
 
-  margin-top: 60px;
+  margin: 0px;
   margin-bottom: 30px;
   padding-top: 60px;
 
@@ -21,8 +22,8 @@
 
 .team-list__item {
   margin-top: 30px;
-  min-width: 450px;
-  height: 622px;
+  max-width: 450px;
+  height: auto;
 
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -31,15 +32,13 @@
 }
 
 .team-list__thumb {
-  width: 450px;
-  height: 460px;
+  max-width: 450px;
+  height: auto;
 }
 
 .team-list__photo {
-  min-width: 100%;
-  min-height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .team-list__caption {

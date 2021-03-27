@@ -3,13 +3,17 @@
 }
 
 .advantages {
-  margin-top: 60px;
-  margin-bottom: 0px;
+  padding-top: 60px;
+  margin-bottom: 60px;
+}
+
+.description-list__item:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .description-list__icon {
   @include centered-flex(center, center);
-  width: 450px;
+  max-width: 450px;
   height: 120px;
   margin-bottom: 30px;
 
@@ -32,6 +36,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+
   color: var(--secondary-color-text);
   margin-top: 0px;
   margin-bottom: 0px;
