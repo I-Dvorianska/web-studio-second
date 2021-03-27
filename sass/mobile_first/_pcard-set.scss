@@ -1,9 +1,23 @@
-.card-set__item {
-  border: 1px solid var(--border-color);
+.card-set {
+  @media screen and(min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
-.card-set__item:not(:last-child) {
-  margin-bottom: 30px;
+.card-set__item {
+  border: 1px solid var(--border-color);
+  @media screen and(min-width:768px) {
+    margin: 15px;
+    flex-basis: calc((100% - #{60px}) / 2);
+  }
+}
+
+@media screen and(max-width: 767px) {
+  .card-set__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 
 .card {
@@ -25,8 +39,13 @@
 }
 
 .card__image-thumb {
-  max-width: 450px;
-  height: 294px;
+  @media screen and(min-width:768px) {
+    max-width: 354px;
+  }
+  @media screen and(max-width: 767px) {
+    max-width: 450px;
+    height: 294px;
+  }
 }
 
 .card__thumb .card__image {
