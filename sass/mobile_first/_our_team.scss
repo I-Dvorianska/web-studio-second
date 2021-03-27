@@ -1,6 +1,5 @@
 .our-team {
   background-color: var(--background-btn-portfolio);
-  // min-width: 100%;
 }
 
 .our-team__title {
@@ -45,8 +44,15 @@
 }
 
 .team-list__thumb {
-  max-width: 450px;
   height: auto;
+  @media screen and(max-width: 767px) {
+    max-width: 450px;
+  }
+
+  @media screen and(min-width: 768px) {
+    max-width: 354px;
+    height: auto;
+  }
 }
 
 .team-list__photo {

@@ -5,7 +5,8 @@
   line-height: 1.18;
   color: var(--primary-color-text);
 
-  margin-top: 60px;
+  padding-top: 60px;
+  margin: 0px;
   margin-bottom: 30px;
 }
 
@@ -19,15 +20,20 @@
   height: 90px;
   border: 1px solid var(--inactive-color-button);
   border-radius: 5px;
-
   margin: 15px;
-  min-width: calc(100% / 2 - #{30px});
 
   @include transition(border);
 
   &:hover,
   &:focus {
     border: 1px solid var(--accent-color);
+  }
+
+  @media screen and(max-width:767px) {
+    flex-basis: calc(100% / 2 - #{30px});
+  }
+  @media screen and(min-width: 768px) {
+    flex-basis: calc(100% / 3 - #{30px});
   }
 }
 
