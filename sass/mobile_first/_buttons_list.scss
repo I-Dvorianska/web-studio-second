@@ -5,8 +5,16 @@
 .button-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 40px;
   margin-top: 60px;
+
+  @media screen and(max-width: 767px) {
+    margin-bottom: 40px;
+  }
+
+  @media screen and(min-width: 768px) {
+    margin-bottom: 14px;
+    justify-content: center;
+  }
 }
 
 .button-list__item {

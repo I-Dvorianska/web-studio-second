@@ -329,8 +329,22 @@ p {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 40px;
   margin-top: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .button-list {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button-list {
+    margin-bottom: 14px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .button-list__item {
