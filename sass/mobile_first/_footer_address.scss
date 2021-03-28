@@ -24,14 +24,7 @@
 
   @media screen and(min-width: 1200px) {
     flex-wrap: nowrap;
-    @include centered-flex(baseline, center);
-  }
-}
-
-.footer-box__block {
-  @media screen and(min-width: 1200px) {
-    display: flex;
-    flex-wrap: wrap;
+    @include centered-flex(baseline, flex-start);
   }
 }
 

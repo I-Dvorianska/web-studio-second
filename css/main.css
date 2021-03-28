@@ -142,13 +142,15 @@ p {
   color: var(--tertiary-color-text);
 }
 
-.logo-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+@media screen and (max-width: 1199px) {
+  .logo-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -565,6 +567,10 @@ p {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.hero__btn:hover {
+  cursor: pointer;
 }
 
 .advantages {
@@ -1126,19 +1132,9 @@ p {
     -webkit-box-align: baseline;
         -ms-flex-align: baseline;
             align-items: baseline;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer-box__block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 }
 
@@ -1291,13 +1287,6 @@ p {
   }
 }
 
-.footer-field {
-  position: relative;
-  width: 100%;
-  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-}
-
 .footer-field__input {
   padding: 15px;
   height: 50px;
@@ -1321,6 +1310,19 @@ p {
 
 @media screen and (min-width: 1200px) {
   .footer-field__input {
+    width: 358px;
+  }
+}
+
+.footer-field {
+  position: relative;
+  width: 100%;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-field {
     width: 358px;
   }
 }
@@ -1363,6 +1365,10 @@ p {
   border-radius: 4px;
   color: var(--tertiary-color-text);
   background-color: var(--accent-color);
+}
+
+.footer-button:hover {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 1200px) {
