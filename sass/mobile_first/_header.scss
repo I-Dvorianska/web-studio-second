@@ -88,6 +88,7 @@
   @media screen and(min-width: 1200px) {
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
   }
 }
 
@@ -112,9 +113,10 @@
     padding-bottom: 32px;
   }
 }
-
-.contact-list__item:nth-child(2) {
-  margin-left: 50px;
+@media screen and(min-width: 1200px) {
+  .contact-list__item:nth-child(2) {
+    margin-left: 50px;
+  }
 }
 
 @media screen and(max-width: 1199px) {

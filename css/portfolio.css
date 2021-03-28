@@ -304,6 +304,9 @@ p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
 }
 
@@ -339,8 +342,10 @@ p {
   }
 }
 
-.contact-list__item:nth-child(2) {
-  margin-left: 50px;
+@media screen and (min-width: 1200px) {
+  .contact-list__item:nth-child(2) {
+    margin-left: 50px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
