@@ -14,22 +14,21 @@
 //   margin-bottom: 50px;
 // }
 
-.client-list {
-  @include centered-flex(stretch, space-between);
-}
+// .client-list {
+//   @include centered-flex(stretch, space-between);
+// }
 
 // .client-list__item {
 //   width: 170px;
 //   height: 90px;
 //   border: 1px solid var(--inactive-color-button);
 //   border-radius: 5px;
-  // @include transition(border);
+// @include transition(border);
 
-  // &:hover,
-  // &:focus {
-  //   border: 1px solid var(--accent-color);
-  // }
-}
+// &:hover,
+// &:focus {
+//   border: 1px solid var(--accent-color);
+// }
 
 .client-list__link {
   @include centered-flex(center, center);
