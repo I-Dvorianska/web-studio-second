@@ -1,6 +1,13 @@
 .footer-action__form {
-  @include centered-flex(center, center);
-  flex-direction: column;
+  @media screen and(max-width: 1199px) {
+    @include centered-flex(center, center);
+    flex-direction: column;
+  }
+
+  @media screen and(min-width: 1200px) {
+    @include centered-flex(stretch, flex-start);
+    flex-direction: row;
+  }
 }
 
 .footer-field {
@@ -46,6 +53,10 @@
   border-radius: 4px;
   color: var(--tertiary-color-text);
   background-color: var(--accent-color);
+
+  @media screen and(min-width: 1200px) {
+    margin: 0px;
+  }
 }
 
 .footer-button__icon {
