@@ -1,19 +1,8 @@
 .footer {
   background-color: var(--background-hero);
   margin-top: 60px;
-  @media screen and(max-width: 767px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-
-  @media screen and(min-width: 768px) {
-    padding-bottom: 22px;
-    margin-bottom: 38px;
-  }
-
-  @media screen and(min-width: 1200px) {
-    padding: 60px;
-  }
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-box {
@@ -87,8 +76,22 @@
   color: var(--tertiary-color-text);
   margin-bottom: 20px;
 
+  @media screen and(max-width:767px) {
+    margin-top: 60px;
+  }
+
   @media screen and(min-width: 1200px) {
     text-align: start;
+  }
+}
+
+.footer-action__title {
+  @media screen and(min-width: 768px) {
+    margin-top: 60px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    margin-top: 0px;
   }
 }
 

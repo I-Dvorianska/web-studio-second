@@ -1084,26 +1084,8 @@ p {
 .footer {
   background-color: var(--background-hero);
   margin-top: 60px;
-}
-
-@media screen and (max-width: 767px) {
-  .footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .footer {
-    padding-bottom: 22px;
-    margin-bottom: 38px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer {
-    padding: 60px;
-  }
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1200,10 +1182,29 @@ p {
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 767px) {
+  .invitation__title,
+  .footer-action__title {
+    margin-top: 60px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .invitation__title,
   .footer-action__title {
     text-align: start;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-action__title {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-action__title {
+    margin-top: 0px;
   }
 }
 
@@ -1374,6 +1375,7 @@ p {
 @media screen and (min-width: 1200px) {
   .footer-button {
     margin: 0px;
+    margin-left: 12px;
   }
 }
 
