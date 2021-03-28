@@ -1319,6 +1319,12 @@ p {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .footer-field__input {
+    width: 358px;
+  }
+}
+
 .footer-field__input::-webkit-input-placeholder {
   color: var(--footer-email-color);
 }
