@@ -65,11 +65,11 @@
 
 // hero photo desktop
 
-@media screen and(max-width: 1199px) {
-  .hero-img {
-    max-width: 768px;
-  }
-}
+// @media screen and(max-width: 1199px) {
+//   .hero-img {
+//     max-width: 768px;
+//   }
+// }
 @media screen and(min-width: 1200px) {
   .hero-img {
     max-width: 1600px;
@@ -107,6 +107,11 @@
   letter-spacing: 0.06em;
 
   color: var(--tertiary-color-text);
+
+  @media screen and(min-width: 1200px) {
+    font-size: 44px;
+    padding-top: 200px;
+  }
 }
 
 .hero__btn {
