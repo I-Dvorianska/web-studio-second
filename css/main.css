@@ -695,6 +695,15 @@ p {
   color: var(--primary-color-text);
 }
 
+@media screen and (min-width: 1200px) {
+  .our-team__title {
+    margin-bottom: 50px;
+    padding-top: 94px;
+    font-size: 36px;
+    line-height: 1.16;
+  }
+}
+
 .team-list {
   padding-bottom: 60px;
 }
@@ -707,6 +716,24 @@ p {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin: 0px;
+    padding-bottom: 94px;
   }
 }
 
@@ -725,11 +752,17 @@ p {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .team-list__item {
     margin: 15px;
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team-list__item:not(:first-child) {
+    margin-left: 30px;
   }
 }
 
@@ -746,6 +779,13 @@ p {
 @media screen and (min-width: 768px) {
   .team-list__thumb {
     max-width: 354px;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team-list__thumb {
+    max-width: 270px;
     height: auto;
   }
 }
@@ -788,12 +828,22 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 24px;
-  padding-top: 16px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 16px 122px 24px 122px;
   background-color: var(--tertiary-color-text);
+}
+
+@media screen and (min-width: 768px) {
+  .social-list {
+    padding: 16px 74px 24px 74px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .social-list {
+    padding: 16px 32px 30px 32px;
+  }
 }
 
 .social-list__item {

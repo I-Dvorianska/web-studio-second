@@ -12,9 +12,9 @@
 //   padding-top: 94px;
 // }
 
-.team-list {
-  @include centered-flex(stretch, center);
-}
+// .team-list {
+//   @include centered-flex(stretch, center);
+// }
 
 // .team-list__item {
 //   border-radius: 0px 0px 4px 4px;
@@ -23,9 +23,9 @@
 //   overflow: hidden;
 // }
 
-.team-list__item:not(:first-child) {
-  margin-left: 30px;
-}
+// .team-list__item:not(:first-child) {
+//   margin-left: 30px;
+// }
 
 // .team-list__caption {
 //   text-align: center;

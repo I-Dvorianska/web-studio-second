@@ -1,8 +1,15 @@
 .social-list {
-  @include centered-flex(center, center);
-  padding-bottom: 24px;
-  padding-top: 16px;
+  @include centered-flex(center, space-around);
+  padding: 16px 122px 24px 122px;
   background-color: var(--tertiary-color-text);
+
+  @media screen and(min-width: 768px) {
+    padding: 16px 74px 24px 74px;
+  }
+
+  @media screen and(min-width: 1200px) {
+    padding: 16px 32px 30px 32px;
+  }
 }
 
 .social-list__item {
