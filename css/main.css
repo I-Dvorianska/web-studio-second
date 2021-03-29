@@ -188,12 +188,17 @@ p {
 
 .mobile__open {
   fill: var(--primary-color-text);
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile__open:hover, .mobile__open:focus {
+.mobile__open:active, .mobile__open:focus {
   fill: var(--accent-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .mobile__open {
+    -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .header__container {
@@ -468,6 +473,21 @@ p {
   fill: var(--primary-color-text);
   border: none;
   background-color: transparent;
+}
+
+.mobile-menu__closeIcon {
+  fill: var(--primary-color-text);
+}
+
+.mobile-menu__closeIcon:hover, .mobile-menu__closeIcon:focus {
+  fill: var(--accent-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .mobile-menu__closeIcon {
+    -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .mobile-list__item {
@@ -1448,6 +1468,12 @@ p {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 }
 
 .modal {
