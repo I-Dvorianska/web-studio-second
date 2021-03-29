@@ -1,66 +1,66 @@
-.backdrop {
-  position: fixed;
-  top: 0;
-  left: 0px;
-  opacity: 1;
+// .backdrop {
+//   position: fixed;
+//   top: 0;
+//   left: 0px;
+//   opacity: 1;
 
-  width: 100%;
-  height: 100%;
-  background-color: var(--modal-color-op20);
+//   width: 100%;
+//   height: 100%;
+//   background-color: var(--modal-color-op20);
 
-  @include transition(opacity);
-}
+//   @include transition(opacity);
+// }
 
-.backdrop.is-hidden {
-  opacity: 0;
-  pointer-events: none;
-  visibility: hidden;
-}
+// .backdrop.is-hidden {
+//   opacity: 0;
+//   pointer-events: none;
+//   visibility: hidden;
+// }
 
 .modal {
-  position: absolute;
-  @extend %absolute-center;
+  // position: absolute;
+  // @extend %absolute-center;
   max-width: 528px;
-  width: 100%;
-  max-height: 100vh;
+  // width: 100%;
+  // max-height: 100vh;
   padding: 40px;
-  overflow-y: auto;
+  // overflow-y: auto;
 
-  border-radius: 4px;
-  background-color: var(--tertiary-color-text);
-  z-index: 10;
+  // border-radius: 4px;
+  // background-color: var(--tertiary-color-text);
+  // z-index: 10;
 }
 
-.modal__close-button {
-  position: absolute;
+// .modal__close-button {
+//   position: absolute;
 
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
+//   top: 8px;
+//   right: 8px;
+//   width: 30px;
+//   height: 30px;
 
-  border: 1px solid var(--close-border-op10);
-  border-radius: 50%;
-  background-color: var(--tertiary-color-text);
+//   border: 1px solid var(--close-border-op10);
+//   border-radius: 50%;
+//   background-color: var(--tertiary-color-text);
 
-    &:hover {
-        cursor: pointer;
-    }
-}
+//   &:hover {
+//     cursor: pointer;
+//   }
+// }
 
-.modal__close-icon {
-  fill: var(--black100);
+// .modal__close-icon {
+//   fill: var(--black100);
 
-    .modal__close-button:hover &,
-    .modal__close-button:focus & {
-        fill: var(--accent-color);
-    }
-}
+//   .modal__close-button:hover &,
+//   .modal__close-button:focus & {
+//     fill: var(--accent-color);
+//   }
+// }
 
-.modal-window__title {
-  text-align: center;
+// .modal-window__title {
+//   text-align: center;
 
-  font-weight: 700;
-  font-size: 20px;
-  color: var(--primary-color-text);
-}
+//   font-weight: 700;
+//   font-size: 20px;
+//   color: var(--primary-color-text);
+// }
