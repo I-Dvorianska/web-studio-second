@@ -64,7 +64,10 @@
           </li>
         </ul>
 
-        <button type="button" class="js-open-menu mobile" >
+        <button type="button" 
+          class="js-open-menu mobile"
+          aria-expanded="false"
+          aria-controls="mobile-menu" >
           <svg
             class="mobile__open"
             width="24px"
@@ -603,7 +606,10 @@
 
       <div class="container mobile-modal">
         <div class="js-menu-container mobile-menu" id="mobile-menu">
-          <button type="button" class="mobile-menu__close js-close-menu">
+          <button type="button" 
+          class="mobile-menu__close js-close-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu">
           <svg class="mobile-menu__closeIcon" width= 40px height= 40px >
             <use href="./images/symbol-defs.svg#mobile-close"></use>
           </svg>
