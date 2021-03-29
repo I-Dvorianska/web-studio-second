@@ -179,6 +179,16 @@ p {
   }
 }
 
+.mobile__open {
+  fill: var(--primary-color-text);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile__open:hover, .mobile__open:focus {
+  fill: var(--accent-color);
+}
+
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;

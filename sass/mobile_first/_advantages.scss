@@ -34,12 +34,9 @@
   }
 }
 .description-list__item {
-  @media screen and(max-width: 1199px) {
+  @media screen and(min-width: 768px) {
     margin: 15px;
     flex-basis: calc((100% - #{60px}) / 2);
-  }
-
-  @media screen and(min-width: 1200px) {
   }
 }
 
