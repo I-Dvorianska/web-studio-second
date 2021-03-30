@@ -574,7 +574,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .hero-img {
-    max-width: 768px;
+    max-width: 1199px;
     height: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -693,6 +693,19 @@ p {
     margin: 15px;
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .description-list__item {
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .description-list__item {
+    margin: 0px;
   }
 }
 
@@ -1492,7 +1505,7 @@ p {
 
 @media screen and (min-width: 768px) {
   .modal {
-    max-height: 60vh;
+    max-height: 80vh;
   }
 }
 
