@@ -29,6 +29,14 @@
   border-radius: 4px;
   background-color: var(--tertiary-color-text);
   z-index: 10;
+
+  @media screen and(min-width:768px) {
+    max-height: 60vh;
+  }
+  @media screen and(min-width: 1200px) {
+    max-width: 528px;
+    max-height: 90vh;
+  }
 }
 
 .modal__close-button {
